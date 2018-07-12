@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Questions{%endblock%}
+{% block content %}
+ <div>
+     {% for question in questions %}
+     <div>
+         <div>
+             <label>Title :</label>
+            <strong>{{ question.title }}</strong>
+         </div>
+         <div>
+             <label>Question :</label>
+            <p>{{question.description}}</p>
+         </div>
+         <div>
+             <label>Tags :</label>
+            <h6>{{question.tags}}</h6>
+         </div>
+     </div>
+     <hr/>
+     {%endfor%}
+ </div>
+
+{% endblock %}

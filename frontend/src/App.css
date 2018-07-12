@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50px;
+  float:left;
+}
+
+.App-header {
+  background-color: #fafafb;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.askquestion{
+    margin-top:10px;
+    margin-left:1000px;
+}
+.questionsummary{  
+  padding-left:8px;
+  margin-bottom:3px;
+}
+
+.answer{
+  margin-left:20px;
+  margin-bottom:1px;
+}
+
+.comment{
+  margin-left:50px;
+  margin-bottom:1px;
+}
+
+.right{
+  position:relative;
+  left:900px;
+}
+
+.leftside{  
+  float:left;
+  width:50px;
+  height:auto;
+  margin-right:15px;
+  text-align: center;
+}
+.rightside{
+  
+}
+.commentvotes{
+  color:salmon;
+  margin-right:5px;
+}
+.commentheading{
+  color:salmon;
+}
+.tag{
+  margin-right:10px;
+  background-color: #E1ECF4;
+  padding:3px;
+}
+.description{
+  margin:10px;
+  margin-bottom:15px !important;
+}
+
+.icon{
+  font-size:30px;
+  color: #858C93;
+}
+.icon:hover{
+  color:orangered;
+}
+
+a{
+  color: #07C;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.user{
+  background-color: #E1ECF4;
+  padding:3px;
+  margin-left:900px;
+  width:100px;
+  height:auto;
+}
